@@ -1,0 +1,26 @@
+{
+  "name": "MyTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gkxiaoqi/MyTest.git",
+  "author": "神猫 <gkxiaoqi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "stylus": "^0.56.0",
+    "stylus-loader": "^6.2.0",
+    "vue": "^3.2.31",
+    "vue-loader": "^17.0.0",
+    "vue-router": "^4.0.14",
+    "webpack": "^5.70.0",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
