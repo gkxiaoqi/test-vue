@@ -56,7 +56,7 @@ module.exports = (env = {}) => {
               plugins: [['@babel/plugin-transform-runtime', { corejs: false }]],
             },
           },
-          exclude: '/node_modules/',
+          exclude: path.join(__dirname, 'node_modules')
         },
         {
           test: /\.vue$/,
